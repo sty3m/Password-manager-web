@@ -1,0 +1,3 @@
+"""PyVault Web — a secure, self-hostable password manager."""
+
+__version__ = "1.0.0"
