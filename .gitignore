@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database — never commit real vault data
+*.db
+*.sqlite
+*.sqlite3
+pyvault.db
+
+# Flask
+instance/
+.flaskenv
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
